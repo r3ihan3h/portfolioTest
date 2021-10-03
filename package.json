@@ -21,17 +21,16 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "demo app for COMP229 Week 3",
+  "description": "Reihaneh Namdari portfolio",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
+    "url": "git+https://github.com/r3ihan3h/portfolioTest.git"
   },
-  "author": "Tom Tsiliopoulos",
-  "license": "ISC",
+  "author": "Reihaneh Namdari",
+  "license": "RN",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
+    "url": "https://github.com/r3ihan3h/portfolioTest.git"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme"
 }
