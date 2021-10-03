@@ -23,8 +23,8 @@ app.use(express.static('public'));
 app.use(express.static('files'));
 app.use(express.static('images'));
 
-// app.use(express.static(path.join(__dirname, 'public')));
-// app.use(express.static(path.join(__dirname, 'node_modules')));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'node_modules')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
