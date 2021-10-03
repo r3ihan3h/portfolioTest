@@ -24,7 +24,7 @@ app.use(express.static('files'));
 app.use(express.static('images'));
 
 app.use('/static', express.static('public'))
-app.use('/static', express.static('assets'))
+app.use('/static', express.static('Assets'))
 app.use('/static', express.static('images'))
 
 
