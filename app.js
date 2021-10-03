@@ -23,6 +23,12 @@ app.use(express.static('public'));
 app.use(express.static('files'));
 app.use(express.static('images'));
 
+app.use('/static', express.static('public'))
+app.use('/static', express.static('assets'))
+app.use('/static', express.static('images'))
+
+
+
 //app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 
